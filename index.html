@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mws-practice-test | weather-app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav>
+          <div class="logo">
+            <p>Wennon</p>
+          </div>
+          <div class="navLinks">
+            <ul>
+              <li><a href="index.html">home</a></li>
+              <li><a href="index.html">weather</a></li>
+              <li><a href="index.html">about</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="about">
+        <h3>
+          Welcome to <span>Wennon,</span> the no 1 place where weather condition
+          is get known.
+        </h3>
+      </div>
+      <div class="user">
+        <div class="location-name">
+          <span id="name"></span>
+        </div>
+        <div class="temperature">
+          <p>&deg;C</p>
+        </div>
+
+        <div class="icon">&female;</div>
+        <div class="condition"><p></p></div>
+        <div class="season"><p></p></div>
+      </div>
+      <div class="another-location">
+        <p class="new-description">
+          You can check any place condition through out the world! Try the
+          search section below
+        </p>
+      </div>
+      <div class="input">
+        <form>
+          <input
+            type="search"
+            name="search"
+            id="search"
+            placeholder="Search any location..."
+            autofocus
+          />
+        </form>
+      </div>
+      <div class="new-location">
+        <div class="new-location-name">
+          <span id="name"> </span>
+        </div>
+        <div class="new-temperature"><p></p></div>
+
+        <div class="new-icon"></div>
+        <div class="new-condition"><p></p></div>
+        <div class="new-season"><p></p></div>
+      </div>
+      <footer><p>built with GADS by Rasheed</p></footer>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

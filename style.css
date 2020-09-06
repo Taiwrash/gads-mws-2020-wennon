@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(154, 204, 171);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.logo,
+.navLinks {
+  margin: 10px 20px 10px 20px;
+}
+
+li {
+  display: inline;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  border-radius: 0 0 100% 100%;
+  background-color: #215c4a;
+  color: #ffffff;
+}
+
+.about > h3 {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20%;
+  width: 70%;
+}
+
+.about span {
+  color: rgb(154, 204, 171);
+}
+
+.user,
+.new-location {
+  text-align: center;
+  margin-left: 20%;
+}
+
+.temperature,
+.icon,
+.season,
+.condition,
+.new-temperature,
+.new-icon,
+.new-season,
+.new-condition {
+  width: 150px;
+  height: 150px;
+  background: rgb(154, 204, 171);
+  border-radius: 10%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.temperature p {
+  font-size: 25px;
+}
+.location-name {
+  margin-top: 20px;
+}
+
+.location-name span,
+#name {
+  font-size: 30px;
+  color: #215c4a;
+  margin-left: -50px;
+}
+
+p {
+  font-size: 30px;
+  color: #707070;
+}
+
+.new-temperature > p,
+.temperature > p {
+  font-size: 50px;
+}
+
+.another-location {
+  width: 90%;
+  margin: auto;
+  font-size: 20px;
+}
+.another-location > p {
+  font-size: 20px;
+}
+
+input {
+  height: 50px;
+  width: 80%;
+  margin: 10%;
+  outline: none;
+  border: 2px solid #215c4a;
+  border-radius: 50px;
+  padding-left: 30px;
+}
+
+footer {
+  background: #215c4a;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+footer > p {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+}
